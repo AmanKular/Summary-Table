@@ -1,0 +1,257 @@
+
+body
+{
+    background-color: rgb(220, 220, 220);
+    
+    display: flex;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: auto;
+    
+ 
+
+}
+
+.d1
+{
+    height: 400px;
+    width: 300px;
+    background-color:#5337db;
+    border-radius: 5%;
+    position: relative; 
+    color: #eee8e8;
+    letter-spacing: 1px;
+    
+    
+}
+
+h3
+{
+text-align: center;
+margin-top: 10%;
+}
+
+.d2
+{
+    height: 400px;
+    width: 300px;
+    background-color:#ffffff;
+    border-radius: 5%; 
+    margin-left: -2%;
+
+    
+   
+} 
+
+.container
+{
+    display: flex;
+    margin: 10%;
+    
+    
+ 
+}
+
+
+@media  (max-width:500px)
+{
+    .container{flex-direction: column;} 
+}
+
+@media  (max-width:500px)
+{
+    .d2{margin-left:0%;} 
+}
+
+.circle
+{
+    /* background-color: #4A26D0; */
+    background-image: linear-gradient(rgb(75, 30, 198), rgb(217, 217, 44));
+    width: 142px;
+    height: 138px;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    border: #4A26D0;
+    opacity: 80%;
+}
+
+.s1
+{
+    font-size: 60px;
+    
+}
+.s2
+{
+    font-size:90%;
+}
+
+.number
+{
+   
+    
+    margin: 30% auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 250%;
+    font-weight: bolder;
+    color: #FFFFFF;
+
+    
+}
+
+.text
+{
+    margin: 20px auto;
+    width: 85%;
+    text-align: center;
+    line-height: 150%;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.t1
+{
+    font-size: 30px;
+}
+.t2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+}
+
+h4 
+{
+margin-top: 10%;
+margin-left: 35px;
+font-family:Arial, Helvetica, sans-serif;
+letter-spacing: 2px;
+height: fit-content;
+font-size:x-large;
+color: #FFFFFF;
+opacity: 90%;
+}
+button
+{
+
+background-color: #36239e;
+color: #FFFFFF;
+margin:  auto;
+height: 40px;
+width: 100px;
+border-radius: 5px;
+font-weight: 40px;
+box-sizing: border-box;
+margin-top: 20px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size:large;
+box-shadow: 0 5px #4326d3;
+  
+}
+button:hover
+{
+    background-color:#5337db;
+    
+}
+
+button:active {
+    background-color:#5337db;
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+}
+
+
+.table
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(89.5deg, rgb(104, 208, 232) 1.5%, rgb(231, 144, 245) 100.5%);
+    border-radius: 10px;
+    height: 100%;
+    
+}
+.tally1
+{
+    background: radial-gradient(905px at 4.9% 85.8%, rgb(255, 243, 242) 0.1%, rgb(255, 247, 220) 57.6%);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    height:fit-content;
+    align-items: center;  
+    border: solid black; 
+    margin: 2% 10%; 
+    height: 40px;
+    padding: 0px 5px;
+    opacity: 90%; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.tally1:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.tally2
+{
+    background: radial-gradient(circle at 10% 20%, rgb(254, 255, 165) 0%, rgb(255, 232, 182) 90%);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    height:fit-content;
+    align-items: center;  
+    border: solid black; 
+    margin: 2% 10%; 
+    height: 40px;
+    padding: 0px 5px;
+    opacity: 90%; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.tally2:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.tally3
+{
+    background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    height:fit-content;
+    align-items: center;  
+    border: solid black; 
+    margin: 2% 10%; 
+    height: 40px;
+    padding: 0px 5px;   
+    opacity: 90%;   
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.tally3:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.tally4
+{
+    background: linear-gradient(68.6deg, rgb(252, 165, 241) 1.8%, rgb(181, 255, 255) 100.5%);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    height:fit-content;
+    align-items: center;  
+    border: solid black; 
+    margin: 2% 10%; 
+    height: 40px;
+    padding: 0px 5px;  
+    opacity: 90%;  
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.tally4:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
